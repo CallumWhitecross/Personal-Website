@@ -1,13 +1,11 @@
 /*Main structure of the page*/
 footer {
   margin-bottom: 40px;
-  height: 1700px;
+  height: 90%;
 }
 
 /*Apply to all paragraph text*/
 p{
-  padding-bottom: 40px;
-  padding-right: 70px;
 }
 
 /*Apply to all h5 tags*/
@@ -17,48 +15,40 @@ h5 {
 
 /*Apply to all images*/
 img{
-  float:left; /*Moves the image the left of the page and allows text to wrap around it*/
 }
 
 /*Apply to all elements identified the introduction*/
 #intro{
-  padding-left: 500px;
-  margin-left: 140px;
+
 }
 
 /*Apply to all elements identified as contact information*/
 #contact{
-  padding-top:30px;
-  padding-left:140px;
-  padding-right:140px;
-  padding-bottom: 60px;
+  padding-top:40px;
+  padding-left:150px;
+  padding-right:150px;
+  padding-bottom: 90px;
   background-color: #202020; /*Very dark gray*/
   width: 600px; /*Sets the width of the container*/
-  margin-right: 20px
   border: 5px lightgray; /*Applies a lightgray border around the container*/
-  float: left; /*Floats the container left so that text and other containers are able to go alongside it on the page*/
 }
 
 /*Apply to all elements identified as education information*/
 #education{
-  float:right; /*Floats the container right so that this container can go alongside the contact information*/
-  margin-right: 300px;
-  margin-top: 20px;
-  margin-bottom: 140px;
+  margin-left: 90px;
 }
 
 /*Apply to all elements identifiedas experience information*/
 #experience{
-  float:right; /*Floats the container right so that this container is able to go alongside other containers or text*/
-  margin-right:260px;
-  margin-bottom: 25px;
-  Width: 600px; /*Fixes the width of the container so that it is able to fit on the page*/
+
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     * {
-        background-color: #202020;
         width:100%;
         text-align: center;
+        margin-bottom; 50px;
+        padding-left: auto;
+        padding-right: auto;
     }
