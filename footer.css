@@ -4,7 +4,7 @@ footer {
 
   /*Dimensions of the container*/
   width: 85%;
-  
+
 
   /* Padding */
   padding-left: 100px;
@@ -24,7 +24,7 @@ footer {
   box-shadow: 6px 6px 5px black;
 }
 
-@media only screen and (max-width: 768px) {
+*/@media only screen and (max-width: 768px) {
     /* For mobile phones: */
     img {
         width: 100%;
