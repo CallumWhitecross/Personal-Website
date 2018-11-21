@@ -1,1 +1,11 @@
+/*Apply to all title text*/
+h1{
+  padding-bottom: 120px;
+}
 
+/*Apply to all paragraph text*/
+p{
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+}

@@ -1,0 +1,46 @@
+footer{
+  /*text*/
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  color:silver;
+}
+
+h2{
+  color:lightgray;
+}
+
+h3{
+  color:silver;
+}
+
+h4 {
+  padding-top: 70px;
+  text-align: center; /*Aligns the text so that it is centered within the container*/
+  color: lightgray;
+}
+
+h5 {
+  color: lightgray;
+  margin-bottom: 80px;
+}
+
+h6 {
+    color: lightgray;
+}
+
+/*Apply to all items in a list*/
+li{
+  color:lightgray;
+}
+
+p{
+  color:silver;
+}
+
+header{
+  width: 100%;
+  position:fixed;
+  top:0px;
+}
